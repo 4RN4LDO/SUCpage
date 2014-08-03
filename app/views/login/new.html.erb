@@ -1,0 +1,14 @@
+<div id="contact_page" class= "adjust_primary_box">
+  <div class= "content full_width adjust_secondary_box" style="width:70%">
+    <p>Proximamente podra registrarse con nosotros!</p>
+      <div class="form-group">
+        <%= label_tag 'name', 'Nombre' %>
+        <%= text_field_tag 'name', nil,  placeholder: 'Su nombre' %>
+      </div>
+      <div class="form-group">
+        <%= label_tag 'email', 'Email' %>
+        <%= email_field_tag 'email', nil, class: 'form-control', placeholder: 'Su direccion de correo' %>
+      </div>
+      <%= submit_tag nil%>
+  </div>
+</div>
